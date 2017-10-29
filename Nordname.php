@@ -39,7 +39,9 @@ class Registrar_Adapter_Nordname extends Registrar_AdapterAbstract
     public function getTlds()
     {
         return array(
-            '.com', '.net', '.org', '.biz', '.info', '.mobi', '.us', '.me', '.co', '.pw', '.eu', '.fi'
+            '.com', '.net', '.org', '.pw', '.eu', '.info', '.me', '.biz', '.club', 
+	    '.xyz', '.site', '.design', '.pro', '.cc', '.work', '.io', '.ltd', '.guru', 
+	    '.city', '.es', '.in', '.ws', '.media', '.de', '.online'
         );
     }
 
