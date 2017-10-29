@@ -414,7 +414,7 @@ class Registrar_Adapter_Nordname extends Registrar_AdapterAbstract
         );
 
         $result = $this->_request('sendEPP', $params);
-        return 'EPP transfer code for the domain emailed to the administrative contact';
+        return 'The EPP code of this domain has been emailed to the registrant email.';
     }
     /**
      * Runs an api command and returns parsed data.
